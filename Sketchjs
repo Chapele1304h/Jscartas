@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}function setup() {
+  createCanvas(600, 600);
+  background("white");
+}
+
+function draw() {
+  stroke ("black");
+ fill("yellow");
+  
+if(mouseIsPressed){
+  rect(mouseX, mouseY, 20, 35);
+}
+}
+canvas {
+  display: block;
+}
